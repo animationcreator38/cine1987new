@@ -54,7 +54,7 @@ async def start(client, message):
                 InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="SHORTLINK_INFO2"),
                 InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
@@ -68,7 +68,7 @@ async def start(client, message):
                 InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="SHORTLINK_INFO2"),
                 InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -140,7 +140,7 @@ async def start(client, message):
                 InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="SHORTLINK_INFO2"),
                 InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
@@ -154,7 +154,7 @@ async def start(client, message):
                 InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="SHORTLINK_INFO2"),
                 InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
@@ -195,7 +195,7 @@ async def start(client, message):
                     InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="SHORTLINK_INFO2"),
                     InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
@@ -209,7 +209,7 @@ async def start(client, message):
                     InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="SHORTLINK_INFO2"),
                     InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+                    InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
