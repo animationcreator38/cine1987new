@@ -1835,9 +1835,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-                InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
-            ],[
-                InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('💖 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💖', callback_data='subscription')
             ]]
         else:
             buttons = [[
