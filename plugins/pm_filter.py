@@ -1839,7 +1839,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]]
         else:
             buttons = [[
-                InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩, url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
                 InlineKeyboardButton('💖 Sᴜʙsᴄʀɪᴘᴛɪᴏɴ', callback_data="shortlink_info"),
                 InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
