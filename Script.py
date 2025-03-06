@@ -279,14 +279,7 @@ Nᴀᴍᴇ - {}"""
 
 🥳🥳🥳🥳🥳🥳🥳🥳🥳🥳
 
-To get Subscription, you need to type (Subscription) message and send it to the given below telegram username 
-
-
-👇🄲🄾🄽🅃🄰🄲🅃 🄷🄴🅁🄴👇
-
-ᴄʟɪᴄᴋ ʜᴇʀᴇ ➡️ @cinewood_1 
-
-𝐂𝐡𝐞𝐜𝐤 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧 𝐃𝐞𝐦𝐨 𝐕𝐢𝐝𝐞𝐨 𝐍𝐨𝐰"""
+ᴛᴏ ʙᴜʏ ᴄɪɴᴇᴡᴏᴏᴅ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ᴄᴏɴᴛᴀᴄᴛ ʙᴜᴛᴛᴏɴ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴀɴᴅ ꜱᴇɴᴅ "SUBSCRIPTION" ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀᴅᴍɪɴ."""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
