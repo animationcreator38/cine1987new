@@ -52,7 +52,7 @@ class script(object):
 
 ʙᴜʏ ᴘᴀɪᴅ ᴘʟᴀɴ ʙʏ - /plan</b>"""
 
-     SHORTLINK_INFO = """
+     SHORTLINK_INFO2 = """
 
 💖"𝘾𝙞𝙣𝙚𝙒𝙤𝙤𝙙 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣"💖
 
