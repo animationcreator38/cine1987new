@@ -1042,14 +1042,14 @@ async def deletemultiplefiles(bot, message):
         parse_mode=enums.ParseMode.HTML
     )
 
-@Client.on_message(filters.command("shortlink"))
+@Client.on_message(filters.command("setlink"))
 async def shortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
         return await message.reply(f"You are anonymous admin. Turn off anonymous admin and try again this command")
     chat_type = message.chat.type
     if chat_type == enums.ChatType.PRIVATE:
-        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /shortlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/shortlink kpslink.in CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://kpslink.in]]]\n\nIf you have any Doubts, Feel Free to Ask me - @kingvj01\n\n(Puriyala na intha contact la message pannunga - @kngvj01)</b>")
+        return await message.reply_text(f"<b>Hey {message.from_user.mention}, This command only works on groups !\n\n<u>Follow These Steps to Connect Shortener:</u>\n\n1. Add Me in Your Group with Full Admin Rights\n\n2. After Adding in Grp, Set your Shortener\n\nSend this command in your group\n\n—> /settlink ""{your_shortener_website_name} {your_shortener_api}\n\n#Sample:-\n/settlink kpslink.in CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E\n\nThat's it!!! Enjoy Earning Money 💲\n\n[[[ Trusted Earning Site - https://kpslink.in]]]\n\nIf you have any Doubts, Feel Free to Ask me - @kingvj01\n\n(Puriyala na intha contact la message pannunga - @kngvj01)</b>")
     elif chat_type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         grpid = message.chat.id
         title = message.chat.title
@@ -1065,7 +1065,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/shortlink kpslink.in e3d82cdf8f9f4783c42170b515d1c271fb1c4500</code></b>")
+        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/settlink kpslink.in e3d82cdf8f9f4783c42170b515d1c271fb1c4500</code></b>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     shortlink_url = re.sub(r"https?://?", "", shortlink_url)
     shortlink_url = re.sub(r"[:/]", "", shortlink_url)
@@ -1112,12 +1112,12 @@ async def onshortlink(bot, message):
         pass
     settings = await get_settings(grpid)
     if not settings['shortlink']:
-        return await message.reply_text("**First Add Your Shortlink Url And Api By /shortlink Command, Then Turn Me On.**")
+        return await message.reply_text("**First Add Your Shortlink Url And Api By /settlink Command, Then Turn Me On.**")
     await save_group_settings(grpid, 'is_shortlink', True)
     # ENABLE_SHORTLINK = True
     return await message.reply_text("Successfully enabled shortlink")
 
-@Client.on_message(filters.command("shortlink_info"))
+@Client.on_message(filters.command("showlink"))
 async def showshortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
@@ -1148,7 +1148,7 @@ async def showshortlink(bot, message):
             return await message.reply_text(f"<b>Shortener Website: <code>{su}</code>\n\nApi: <code>{sa}</code>\n\nTutorial Link Not Connected\n\nYou can Connect Using /addtutorial command</b>")
         elif 'shortlink' not in settings.keys() and 'tutorial' in settings.keys():
             st = settings['tutorial']
-            return await message.reply_text(f"<b>Tutorial: <code>{st}</code>\n\nShortener Url Not Connected\n\nYou can Connect Using /shortlink command</b>")
+            return await message.reply_text(f"<b>Tutorial: <code>{st}</code>\n\nShortener Url Not Connected\n\nYou can Connect Using /settlink command</b>")
         else:
             return await message.reply_text("Shortener url and Tutorial Link Not Connected. Check this commands, /addlink and /addtutorial")
         
@@ -1183,7 +1183,7 @@ async def settutorial(bot, message):
     else:
         return await message.reply("<b>You entered Incorrect Format\n\nFormat: /addtutorial your tutorial link</b>")
 
-@Client.on_message(filters.command("remove_tutorial"))
+@Client.on_message(filters.command("rmtutorial"))
 async def removetutorial(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
