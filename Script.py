@@ -18,7 +18,9 @@ class script(object):
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
  ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/cinewood_support_bot>Cinewood bot 🤖</a>
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/cinewood_1'>Cinewood Owner</a>     
- Iꜰ Yᴏᴜ Hᴀᴠᴇ Aɴʏ Qᴜᴇꜱᴛɪᴏɴ Rᴇʟᴀᴛᴇᴅ Tᴏ Tʜᴇ Bᴏᴛ Oʀ Hᴀᴠᴇ Fᴏᴜɴᴅ Aɴʏ Bᴜɢ Oɴ Tʜᴇ Bᴏᴛ Tʜᴇɴ Dᴏɴ'ᴛ Hᴇꜱɪᴛᴀᴛᴇ Tᴏ Cᴏɴᴛᴀᴄᴛ Mᴇ."""
+ 
+ 
+ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏɴ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ᴅᴏɴᴛ'ᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ."""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
