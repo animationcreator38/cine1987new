@@ -1065,7 +1065,7 @@ async def shortlink(bot, message):
     try:
         command, shortlink_url, api = data.split(" ")
     except:
-        return await message.reply_text("<b>Command Incomplete :(\n\nGive me a shortener website link and api along with the command !\n\nFormat: <code>/settlink kpslink.in e3d82cdf8f9f4783c42170b515d1c271fb1c4500</code></b>")
+        return await message.reply_text("<b>Command Command:(\n\nPlease use this type complete format !\n\nFormat: <code>/setlink example.com e3d82cdf8f9f4783c42170b515d1c271fb1c4500\n\n➥ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏɴ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ᴅᴏɴᴛ'ᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ.</code></b>")
     reply = await message.reply_text("<b>Please Wait...</b>")
     shortlink_url = re.sub(r"https?://?", "", shortlink_url)
     shortlink_url = re.sub(r"[:/]", "", shortlink_url)
