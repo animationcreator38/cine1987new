@@ -292,7 +292,23 @@ Nᴀᴍᴇ - {}"""
 
 ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ"""
 
-    SELECT = """sᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ʟᴀɴɢᴜᴀɢᴇ, ǫᴜᴀʟɪᴛʏ, sᴇᴀsᴏɴ ᴀɴᴅ ᴇᴘɪsᴏᴅᴇ"""
+    SELECT = """
+--- 𝗠𝗢𝗩𝗜𝗘 𝗦𝗘𝗔𝗥𝗖𝗛𝗜𝗡𝗚 𝗥𝗨𝗟𝗘𝗦 ---
+
+Ex:- 👇👇👇👇👇
+
+👇🏻👇🏻 𝐅𝐨𝐫 𝐌𝐨𝐯𝐢𝐞𝐬 👇🏻👇🏻
+
+Jailer 2023 ✅
+Jailer hindi ✅
+
+👇🏻👇🏻 𝐅𝐨𝐫 𝐒𝐞𝐫𝐢𝐞𝐬 👇🏻👇🏻
+
+Loki S01E01 ✅
+Loki S01 hindi ✅
+
+𝗡𝗼𝘁𝗲:- S01 Means Season 1
+       E01 Means Epsode 1"""
 
     SINFO = """
 🫣 For Movie Join First Then Click On Try Again Button 😅"""
