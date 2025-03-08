@@ -1829,22 +1829,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             buttons = [[
                 InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🪄 Oᴜʀ Pʟᴀɴs', callback_data="shortlink_info"),
-                InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data="shortlink_info"),
+                InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
-                InlineKeyboardButton('💖 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 💖', callback_data='subscription')
+                InlineKeyboardButton('🔥 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data='subscription')
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🪄 Oᴜʀ Pʟᴀɴs', callback_data="shortlink_info"),
-                InlineKeyboardButton('🎥 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data="shortlink_info"),
+                InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('💥 Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
                 InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ]]
         if CLONE_MODE == True:
@@ -1932,7 +1932,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share')
          ], [
              InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'),
-             InlineKeyboardButton('🪄 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info')
+             InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info')
          ], [
              InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ-ɪᴅ', callback_data='sticker'),
              InlineKeyboardButton('ᴊ-ꜱᴏɴ', callback_data='json')
