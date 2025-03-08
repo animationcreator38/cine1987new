@@ -305,10 +305,7 @@ Jailer hindi ✅
 👇🏻👇🏻 𝐅𝐨𝐫 𝐒𝐞𝐫𝐢𝐞𝐬 👇🏻👇🏻
 
 Loki S01E01 ✅
-Loki S01 hindi ✅
-
-𝗡𝗼𝘁𝗲:- S01 Means Season 1
-       E01 Means Epsode 1"""
+Loki S01 hindi ✅"""
 
     SINFO = """
 🫣 For Movie Join First Then Click On Try Again Button 😅"""
