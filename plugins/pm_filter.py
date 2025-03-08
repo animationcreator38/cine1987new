@@ -1968,7 +1968,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "subscription":
         buttons = [[
-            InlineKeyboardButton('⇚Back', callback_data='start')
+            InlineKeyboardButton('⇚Back', callback_data='start'),
             InlineKeyboardButton('🤑 Eᴀʀɴ Mᴏɴᴇʏ', callback_data='english_info')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
