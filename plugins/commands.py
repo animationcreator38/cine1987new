@@ -48,7 +48,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
+                InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
@@ -60,7 +60,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
+                InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
@@ -127,7 +127,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
+                InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
@@ -139,7 +139,7 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
+                InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
@@ -178,7 +178,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
+                    InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                     InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
@@ -190,7 +190,7 @@ async def start(client, message):
                 buttons = [[
                     InlineKeyboardButton('⟨ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Oᴡɴ Gʀᴏᴜᴘ ⟩', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔖 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
+                    InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                     InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
                     InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
