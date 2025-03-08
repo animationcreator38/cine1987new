@@ -1112,7 +1112,7 @@ async def onshortlink(bot, message):
         pass
     settings = await get_settings(grpid)
     if not settings['shortlink']:
-        return await message.reply_text("**First Add Your Shortlink Url And Api By /settlink Command, Then Turn Me On.**")
+        return await message.reply_text("**First Add Your Shortlink Url And Api By /setlink Command, Then Turn Me On.**")
     await save_group_settings(grpid, 'is_shortlink', True)
     # ENABLE_SHORTLINK = True
     return await message.reply_text("Successfully enabled shortlink")
@@ -1148,7 +1148,7 @@ async def showshortlink(bot, message):
             return await message.reply_text(f"<b>Shortener Website: <code>{su}</code>\n\nApi: <code>{sa}</code>\n\nTutorial Link Not Connected\n\nYou can Connect Using /addtutorial command</b>")
         elif 'shortlink' not in settings.keys() and 'tutorial' in settings.keys():
             st = settings['tutorial']
-            return await message.reply_text(f"<b>Tutorial: <code>{st}</code>\n\nShortener Url Not Connected\n\nYou can Connect Using /settlink command</b>")
+            return await message.reply_text(f"<b>Tutorial: <code>{st}</code>\n\nShortener Url Not Connected\n\nYou can Connect Using /setlink command</b>")
         else:
             return await message.reply_text("Shortener url and Tutorial Link Not Connected. Check this commands, /addlink and /addtutorial")
         
