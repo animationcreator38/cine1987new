@@ -51,7 +51,7 @@ async def start(client, message):
                 InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                 InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
             ],[
                 InlineKeyboardButton('🔥 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data='subscription')
@@ -63,7 +63,7 @@ async def start(client, message):
                 InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                 InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
             ]]
         if CLONE_MODE == True:
@@ -130,7 +130,7 @@ async def start(client, message):
                 InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                 InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
             ],[
                 InlineKeyboardButton('🔥 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data='subscription')
@@ -142,7 +142,7 @@ async def start(client, message):
                 InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                 InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
-                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                 InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
             ]]
         if CLONE_MODE == True:
@@ -181,7 +181,7 @@ async def start(client, message):
                     InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                     InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                    InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                     InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
                 ],[
                     InlineKeyboardButton('🔥 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data='subscription')
@@ -193,7 +193,7 @@ async def start(client, message):
                     InlineKeyboardButton('🚀 Oᴜʀ Pʟᴀɴs', callback_data='shortlink_info'),
                     InlineKeyboardButton('🍿 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
                 ],[
-                    InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url='https://t.me/+YBYfWpzSS_wxYWU1'),
+                    InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                     InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
                 ]]
             if CLONE_MODE == True:
