@@ -72,7 +72,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                     InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs', url=CHNL_LNK),
                     InlineKeyboardButton('🦸🏻 Aʙᴏᴜᴛ Mᴇ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('ᴘʀᴇᴍɪᴜᴍ ᴀɴᴅ ʀᴇғᴇʀʀᴀʟ', callback_data='subscription')
+                    InlineKeyboardButton('🔥 Rᴇғғᴇʀ & Gᴇᴛ Sᴜʙsᴄʀɪᴘᴛɪᴏɴ 🔥', callback_data='subscription')
                 ]]
             else:
                 buttons = [[
@@ -87,10 +87,7 @@ async def auto_approve(client, message: ChatJoinRequest):
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
             reply_markup = InlineKeyboardMarkup(buttons)
-            m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
-            await asyncio.sleep(1)
-            await m.delete()
-            await message.reply_photo(
+            m=await message.reply_photo(
                 photo=random.choice(PICS),
                 caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
                 reply_markup=reply_markup,
