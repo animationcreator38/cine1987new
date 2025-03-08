@@ -137,10 +137,10 @@ async def auto_approve(client, message: ChatJoinRequest):
 
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                        InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
+                        InlineKeyboardButton("🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ", url=download),
+                        InlineKeyboardButton('🎥 Wᴀᴛᴄʜ Oɴʟɪɴᴇ', url=stream)
                     ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("🔥 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🔥", url='https://t.me/+KffNbYlF1_diNzRl')
                     ]]
                     reply_markup = InlineKeyboardMarkup(button)
                 else:
@@ -209,10 +209,10 @@ async def auto_approve(client, message: ChatJoinRequest):
  
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                        InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
+                        InlineKeyboardButton("🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ", url=download),
+                        InlineKeyboardButton('🎥 Wᴀᴛᴄʜ Oɴʟɪɴᴇ', url=stream)
                     ],[
-                        InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                        InlineKeyboardButton("🔥 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🔥", url='https://t.me/+KffNbYlF1_diNzRl')
                     ]]
                     reply_markup = InlineKeyboardMarkup(button)
                 else:
@@ -332,7 +332,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                     )
                     return
             if STREAM_MODE == True:
-                button = [[InlineKeyboardButton('sᴛʀᴇᴀᴍ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ', callback_data=f'generate_stream_link:{file_id}')]]
+                button = [[InlineKeyboardButton("🔥 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🔥", url='https://t.me/+KffNbYlF1_diNzRl')]]
                 reply_markup=InlineKeyboardMarkup(button)
             else:
                 reply_markup = None
@@ -396,7 +396,7 @@ async def auto_approve(client, message: ChatJoinRequest):
                     )
                     return
             if STREAM_MODE == True:
-                button = [[InlineKeyboardButton('sᴛʀᴇᴀᴍ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ', callback_data=f'generate_stream_link:{file_id}')]]
+                button = [[InlineKeyboardButton("🔥 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🔥", url='https://t.me/+KffNbYlF1_diNzRl')]]
                 reply_markup=InlineKeyboardMarkup(button)
             else:
                 reply_markup = None
@@ -455,7 +455,7 @@ async def auto_approve(client, message: ChatJoinRequest):
             )
             return
     if STREAM_MODE == True:
-        button = [[InlineKeyboardButton('sᴛʀᴇᴀᴍ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ', callback_data=f'generate_stream_link:{file_id}')]]
+        button = [[InlineKeyboardButton("🔥 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🔥", url='https://t.me/+KffNbYlF1_diNzRl')]]
         reply_markup=InlineKeyboardMarkup(button)
     else:
         reply_markup = None
