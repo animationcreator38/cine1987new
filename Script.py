@@ -19,7 +19,7 @@ class script(object):
  ‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/cinewood_support_bot>Cinewood bot 🤖</a>
  ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/cinewood_1'>Cinewood Owner</a>     
  
- ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏɴ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ᴅᴏɴᴛ'ᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ."""
+ ➥ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏɴ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ᴅᴏɴᴛ'ᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ."""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
@@ -221,7 +221,7 @@ Nᴀᴍᴇ - {}"""
 
     SHORTLINK_INFO = """
 
-💖"𝘾𝙞𝙣𝙚𝙒𝙤𝙤𝙙 𝙎𝙪𝙗𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣"💖
+------ 𝗖𝗜𝗡𝗘𝗪𝗢𝗢𝗗 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 ------
 
 ➪ 𝐒𝐦𝐚𝐥𝐥 𝐏𝐥𝐚𝐧 🤏
 
@@ -568,31 +568,26 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 மேலும் உங்கள் குழுவில் பயிற்சி வீடியோ தொகுப்பு ஆகிடும்..."""
 
     ENGLISH_INFO = """
-Hey <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
 
+    ʜᴏᴡ ᴛᴏ ᴇᴀʀɴ ᴍᴏɴᴇʏ 🤑 ꜰʀᴏᴍ ᴛʜɪs ʙᴏᴛ 💸.
 
- Now you can earn money on Telegram too.
+sᴛᴇᴘ 𝟷 : ʏᴏᴜ ᴍᴜsᴛ ʜᴀᴠᴇ ᴀᴛʟᴇᴀsᴛ ᴏɴᴇ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴍɪɴɪᴍᴜᴍ 50 ᴍᴇᴍʙᴇʀs.
 
- You must have 1 group to earn money by telegram.
- If you have a group, you can earn money by adding our bot to your group.
+ꜱᴛᴇᴘ 2 : ᴄʀᴇᴀᴛᴇ ᴀɴ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴀɴʏ ᴛʀᴜsᴛᴇᴅ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ.
 
- The more members you have in your group, the higher your income will be.
+ꜱᴛᴇᴘ 3 : ᴄᴏᴘʏ ʏᴏᴜʀ ᴀᴘɪ ᴛᴏᴋᴇɴ ꜰʀᴏᴍ ʟɪɴᴋ ꜱᴏʀᴛɴᴇʀ ᴡᴇʙꜱɪᴛᴇ ᴛᴏᴏʟs sᴇcᴛɪᴏɴ.
 
- How and what to do
+ꜱᴛᴇᴘ4 : ꜱᴇɴᴅ ʏᴏᴜʀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜᴇ ɢɪᴠᴇɴ ꜰᴏʀᴍᴀᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⬇️. 
 
- Step 1: Administer this VJ-FILTER-BOT bot to your group
+/sᴇᴛʟɪɴᴋ ᴡᴇʙꜱɪᴛᴇɴᴀᴍᴇ ᴀᴘɪᴛᴏᴋᴇɴ
 
- Step 2: Add your website and API
+ᴇxᴀᴍᴘʟᴇ ⬇️
 
- Exp: /shortlink xtz.in 4b392f8eb6ad711fbe58
+ /setlink example.com f7d3d6a03b890eea722a5c9a39ccae13575000c7
 
- Add a video
+➥ ᴛʜɪꜱ ʙᴏᴛ ғʀᴇᴇ ғᴏʀ ᴀʟʟ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ғʀᴇᴇ ᴏғ ᴄᴏꜱᴛ 
 
- 👇 How to add 👇
-
- Exp: /set_tutorial video link
-
-Also your tutorial will be Added Your Group..."""
+ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇꜱᴛɪᴏɴ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏʀ ʜᴀᴠᴇ ꜰᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏɴ ᴛʜᴇ ʙᴏᴛ ᴛʜᴇɴ ᴅᴏɴᴛ'ᴛ ʜᴇꜱɪᴛᴀᴛᴇ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ..."""
 
     TELUGU_INFO = """
 హే <a href='tg://settings'>ᴍʏ ғʀɪᴇɴᴅ</a> 
