@@ -1780,10 +1780,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             button = [[
-                InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=download),
-                InlineKeyboardButton('• ᴡᴀᴛᴄʜ •', url=stream)
+                InlineKeyboardButton(""🚀 Fᴀsᴛ Dᴏᴡɴʟᴏᴀᴅ", url=download),
+                InlineKeyboardButton('🎥 Wᴀᴛᴄʜ Oɴʟɪɴᴇ', url=stream)
             ],[
-                InlineKeyboardButton("• ᴡᴀᴛᴄʜ ɪɴ ᴡᴇʙ ᴀᴘᴘ •", web_app=WebAppInfo(url=stream))
+                InlineKeyboardButton("🔥 Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Cʜᴀɴɴᴇʟ 🔥", url='https://t.me/+KffNbYlF1_diNzRl')
             ]]
             await query.message.edit_reply_markup(InlineKeyboardMarkup(button))
         except Exception as e:
