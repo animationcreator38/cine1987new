@@ -41,14 +41,11 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-        ],[
-            InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=OWNER_LNK)
+            InlineKeyboardButton("✨ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✨", url=CHNL_LNK)
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
-            text=f"<b>Thankyou For Adding Me In {message.chat.title} ❣️\n\nIf you have any questions & doubts about using me contact support.</b>",
+            text=f"<b>ʜᴇʟʟᴏ ☺️ sɪʀ ᴛʜᴀɴᴋʏᴏᴜ  ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ɪɴ {message.chat.title} ✨\n\nɴᴏᴡ ʏᴏᴜ ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ᴛᴏ ᴡᴏʀʀʏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪꜱ ᴍʏ ʀᴇꜱᴘᴏɴꜱɪʙɪʟɪᴛʏ 🫡.</b>",
             reply_markup=reply_markup
         )
     else:
@@ -61,10 +58,7 @@ async def save_group(bot, message):
                     except:
                         pass
                 button = [[
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                    InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                ],[
-                    InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url=OWNER_LNK)
+                    InlineKeyboardButton('✨ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✨', url=CHNL_LNK)
                 ]]
                 temp.MELCOW['welcome'] = await message.reply_text(
                     text=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
