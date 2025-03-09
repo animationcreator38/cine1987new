@@ -128,7 +128,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     else:
         btn = []
@@ -140,7 +140,7 @@ async def next_page(bot, query):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     try:
         if settings['max_btn']:
@@ -361,7 +361,7 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     else:
         btn = []
@@ -373,7 +373,7 @@ async def filter_yearss_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(message.chat.id))
         ])
 
     if offset != "":
@@ -523,7 +523,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     else:
         btn = []
@@ -535,7 +535,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
 
     if offset != "":
@@ -687,7 +687,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     else:
         btn = []
@@ -699,7 +699,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
 
     if offset != "":
@@ -880,7 +880,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     else:
         btn = []
@@ -892,7 +892,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     if lang != "homepage":
         req = query.from_user.id
@@ -1014,7 +1014,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     else:
         btn = []
@@ -1026,7 +1026,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
 
     if offset != "":
@@ -2569,7 +2569,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(message.chat.id))
         ])
     else:
         btn = []
@@ -2581,7 +2581,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("🍿 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🍿", url=await get_tutorial(query.message.chat.id))
+            InlineKeyboardButton("🎃 𝗛𝗼𝘄 𝗧𝗼 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗼𝘃𝗶𝗲 🎃", url=await get_tutorial(query.message.chat.id))
         ])
     if offset != "":
         try:
