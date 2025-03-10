@@ -391,10 +391,7 @@ async def start(client, message):
                 ]
             )
         )
-        if PREMIUM_AND_REFERAL_MODE == True:
-            text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴏᴘᴇɴɪɴɢ ʟɪɴᴋ ᴀɴᴅ ᴡᴀᴛᴄʜɪɴɢ ᴀᴅs ᴛʜᴇɴ ʙᴜʏ 𝗖𝗜𝗡𝗘𝗪𝗢𝗢𝗗 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 🚀\n\n ᴛᴏ ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ sᴇɴᴅ /plan</b>"
-        k = await client.send_message(chat_id=message.from_user.id, text=text, reply_markup=InlineKeyboardMarkup(btn))
-        await asyncio.sleep(300)
+        await asyncio.sleep(1199)
         await k.edit("<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ʜᴀs ɴᴏᴡ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ⌛</b>")
         return
         
@@ -415,9 +412,6 @@ async def start(client, message):
                 ]
             )
         )
-        if PREMIUM_AND_REFERAL_MODE == True:
-            text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴏᴘᴇɴɪɴɢ ʟɪɴᴋ ᴀɴᴅ ᴡᴀᴛᴄʜɪɴɢ ᴀᴅs ᴛʜᴇɴ ʙᴜʏ 𝗖𝗜𝗡𝗘𝗪𝗢𝗢𝗗 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 🚀\n\n ᴛᴏ ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ sᴇɴᴅ /plan</b>"
-        k = await client.send_message(chat_id=user, text=text, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(1200)
         await k.edit("<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ʜᴀs ɴᴏᴡ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ⌛</b>")
         return
@@ -496,9 +490,6 @@ async def start(client, message):
                 ]
             )
         )
-            if PREMIUM_AND_REFERAL_MODE == True:
-                text += "<b>ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴅɪʀᴇᴄᴛ ғɪʟᴇꜱ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴏᴘᴇɴɪɴɢ ʟɪɴᴋ ᴀɴᴅ ᴡᴀᴛᴄʜɪɴɢ ᴀᴅs ᴛʜᴇɴ ʙᴜʏ 𝗖𝗜𝗡𝗘𝗪𝗢𝗢𝗗 𝗦𝗨𝗕𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡 🚀\n\n ᴛᴏ ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ sᴇɴᴅ /plan</b>"
-            k = await client.send_message(chat_id=message.from_user.id, text=text, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(1200)
             await k.edit("<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ʜᴀs ɴᴏᴡ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ⌛</b>")
             return
