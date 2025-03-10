@@ -490,9 +490,9 @@ async def start(client, message):
                 ]
             )
         )
-            await asyncio.sleep(1200)
-            await k.edit("<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ʜᴀs ɴᴏᴡ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ⌛</b>")
-            return
+        await asyncio.sleep(1200)
+        await k.edit("<b>ᴛʜɪs ᴍᴇssᴀɢᴇ ʜᴀs ɴᴏᴡ ʙᴇᴇɴ ᴅᴇʟᴇᴛᴇᴅ ⌛</b>")
+        return
     user = message.from_user.id
     files_ = await get_file_details(file_id)           
     if not files_:
